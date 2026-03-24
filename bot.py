@@ -8,7 +8,7 @@ import os
 from flask import Flask
 from threading import Thread
 
-TOKEN = "MTQ4NTkzODQzMTQwNTA2NDIyMg.GgtXEb.HK2bXKrG9boK1bsoyc9lrdc7UfJrndpL6QfiNU"
+TOKEN = os.getenv("MTQ4NTkzODQzMTQwNTA2NDIyMg.GqBoXM.-JdmN26XYy-3XoBbqFtj2kKDIgMUc1etTfHlfU")
 ID_CANALE_LOG = 1485941245179334777
 ID_RUOLO_CITTADINO = 1485944410641403904
 
